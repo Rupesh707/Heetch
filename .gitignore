@@ -1,3 +1,4 @@
 # Distribution / packaging
 .Python
 .Venv/
+.DS_Store
