@@ -2,3 +2,6 @@
 .Python
 .venv
 .DS_Store
+
+# Local env
+**/.venv
