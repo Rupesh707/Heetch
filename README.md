@@ -1,1 +1,1 @@
-# Heetch_case_study
+# Heetch_Study
