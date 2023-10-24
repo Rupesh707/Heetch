@@ -8,7 +8,8 @@
 -- Part1 -- 
 -- Question 1 --
 -- What is the percentage of sessions which end up in a ride order everyday ?
--- 301 -- October 1st Ride 202 (Assumption using Device id)
+-- Assumption using Device id
+-- Count the number of unique sessions (device_id) for each day
 WITH DailyTotalSessions AS (
 	SELECT
 		DATE(timestamp)AS session_date,
@@ -16,7 +17,7 @@ WITH DailyTotalSessions AS (
 	FROM mobile_events 
 	GROUP BY session_date
 ),
--- create temps view with number of session only for ride orders.
+-- Count the number of unique sessions where a ride_order was tapped for each day
 DailyRideOrderSessions AS (
     SELECT DATE(timestamp) AS session_date,
            COUNT(DISTINCT device_id) AS ride_order_sessions
@@ -25,7 +26,7 @@ DailyRideOrderSessions AS (
     GROUP BY session_date
 )
 
--- compute pourcentage of ride order per days.
+-- Calculate the % of sessions that ended in a ride order by dividing the count of the ride_order_sessions by total_sessions *100
 SELECT DailyTotalSessions.session_date,
 	   ride_order_sessions,
        total_sessions,
