@@ -88,11 +88,10 @@
 
 3. Cancellation Rate: Monitor the cancellation rates of rides after the feature's implementation.
 
-Mitigation Strategies:
-
-1. Introduce a silent mode or a less intrusive way of notifying drivers about in-ride bookings.
-2. Implement a stricter penalty or review process for drivers who cancel rides frequently.
-3. Educate drivers about the importance of focusing on the current ride and ensuring passenger safety and satisfaction.
+4. Mitigation Strategies:
+  - Introduce a silent mode or a less intrusive way of notifying drivers about in-ride bookings.
+  - Implement a stricter penalty or review process for drivers who cancel rides frequently.
+  - Educate drivers about the importance of focusing on the current ride and ensuring passenger safety and satisfaction.
 
 #### Experiment Design for the Feature Rollout:
 
