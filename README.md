@@ -24,7 +24,7 @@
 [Click here to access the study](https://nbviewer.org/github/Rupesh707/Heetch/blob/Master/Part%202/part2.ipynb)
 
 <p align="center">
-  <img src="Images/Funnel.jpeg">
+  <img src="Images/Funnel.png">
 </p>
 
 ### METHODOLOGY
