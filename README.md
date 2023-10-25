@@ -106,3 +106,7 @@ Mitigation Strategies:
 5. Staged Rollout: If the feature shows positive results without significant drawbacks, start by rolling it out to a larger percentage of drivers, say 50%, before eventually making it available to all.
 
 6. Feedback Loop: Ensure there is a system for drivers and passengers to provide feedback about the feature, helping in its continuous improvement.
+
+
+### Note:
+Technical brief will be done during live presentation
