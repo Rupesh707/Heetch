@@ -1,5 +1,5 @@
 ## @Author Rupesh
-
+## 25/10/2023
 ## Heetch_Study
 
 ### Part 1
@@ -21,7 +21,11 @@
 
 ### Part 2
 
-[Click here to access the study]()
+[Click here to access the study](https://nbviewer.org/github/Rupesh707/Heetch/blob/Master/Part%202/part2.ipynb)
+
+<p align="center">
+  <img src="Images/Funnel.jpeg">
+</p>
 
 ### METHODOLOGY
 
